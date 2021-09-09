@@ -26,6 +26,8 @@ const team = {
     }]
 };
 
+/* const team = JSON.parse(team); */
+
 function printPersondata(object){
     const personDataContainer = document.createElement('div');
     let newHeading = document.createElement('h2');
@@ -63,6 +65,6 @@ createGridContainer();
 
 let gridContainer = document.querySelector('.grid');
 
-team.teamMembers.forEach((teamMembers) => console.log(teamMembers.fornavn));
-team.teamMembers.forEach((teamMembers) => console.log(`${teamMembers.fornavn} ${teamMembers.efternavn}`));
+team.teamMembers.forEach(teamMembers => console.log(teamMembers.fornavn));
+team.teamMembers.forEach(teamMembers => console.log(`${teamMembers.fornavn} ${teamMembers.efternavn}`));
 team.teamMembers.forEach(teamMembers => printPersondata(teamMembers));

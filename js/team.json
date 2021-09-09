@@ -1,0 +1,27 @@
+{
+    "teamMembers": [{
+        "fornavn": "Emil",
+        "efternavn": "Kristensen",
+        "alder": 33,
+        "hårfarve": "lys",
+        "skostørrelse": 43
+    }, {
+        "fornavn": "Magnus",
+        "efternavn": "Thiemer",
+        "alder": 31,
+        "hårfarve": "leverpostej",
+        "skostørrelse": 42
+    }, {
+        "fornavn": "Jonas",
+        "efternavn": "Abkjær",
+        "alder": 27,
+        "hårfarve": "kommune",
+        "skostørrelse": 44
+    }, {
+        "fornavn": "Morten",
+        "efternavn": "Sønniksen",
+        "alder": 34,
+        "hårfarve": "rød",
+        "skostørrelse": 44
+    }]
+}
